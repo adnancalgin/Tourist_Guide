@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ayasofya"
+    android:background="@drawable/login">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/ayasofya"
+            android:layout_width="wrap_content"
+            android:layout_height="280dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/ayasofya" />
+
+        <ImageView
+            android:id="@+id/ayasofya2"
+            android:layout_width="wrap_content"
+            android:layout_height="280dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/ayasofya2" />
+
+        <ImageView
+            android:id="@+id/ayasofya3"
+            android:layout_width="wrap_content"
+            android:layout_height="280dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/ayasofya3" />
+
+    </ViewFlipper>
+
+    <TextView
+        android:id="@+id/tv_ayasofya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:text="AYASOFYA"
+        android:textColor="#cfffff"
+        android:textSize="25sp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/aciklama"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="360dp"
+        android:text="Birçok Farklı Hükümdarlığın baş tacı olmuş bu mimari harikasını yerinde görmelisiniz o zaman biraz da bu şanlı tarihten bahsedelim . Dünya mimarlık tarihinin günümüze kadar ayakta kalmış en önemli anıtları arasında yer alan Ayasofya; mimarisi, ihtişamı, büyüklüğü ve işlevselliği yönünden sanat dünyası açısından önemli bir yer teşkil etmektedir . Ayasofya Doğu Roma İmparatorluğu’nun İstanbul’da yapmış olduğu en büyük kilise olup aynı yerde üç kez inşa edilmiştir. İlk yapıldığında Megale Ekklesia (Büyük Kilise) olarak adlandırılmış, 5. yüzyıldan itibaren ise Ayasofya (Kutsal Bilgelik) olarak tanımlanmıştır. Ayasofya Doğu Roma İmparatorluğu boyunca hükümdarların taç giydiği, başkentin en büyük kilisesi olarak katedral işlevi görmüştür. Birinci kilise, İmparator Konstantios (337-361) tarafından 360 yılında yapılmıştır. İkinci Kilise, İmparator II. Theodosios (408-450) tarafından 415 yılında yeniden inşa ettirilmiştir. Günümüz Ayasofya’sı İmparator Justinianos tarafından dönemin iki önemli mimarı olan Miletos’lu (Milet) İsidoros ile Tralles’li (Aydın) Anthemios’a yaptırılmıştır. Tarihçi Prokopios’un aktardığına göre, 23 Şubat 532 yılında başlayan inşa, 5 yıl gibi kısa bir sürede tamamlanmış ve kilise 27 Aralık 537 yılında törenle ibadete açılmıştır.  "
+        android:textSize="19sp"
+        android:textColor="#cc9962"
+        android:textStyle="bold" />
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/ileri"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        app:srcCompat="@drawable/oksag" />
+
+    <ImageView
+        android:id="@+id/geri"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="265dp"
+        android:layout_marginStart="0dp"
+        app:srcCompat="@drawable/oksol"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/resimaciklama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ileri"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Resimleri Değiştirmek için"
+        android:textColor="#ffb62f"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    </RelativeLayout>
+</ScrollView>
+
+

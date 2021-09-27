@@ -1,0 +1,82 @@
+long<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ulkeler"
+    android:background="@drawable/login">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#ffb62f"
+        android:text="Gezilmesi Gereken Yerleri Görebilmek İçin Ülkelerin Resimlerine Tıklayınız !" />
+
+    <ImageView
+        android:id="@+id/turkey"
+        android:layout_width="185dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/turkey"
+        />
+
+    <ImageView
+        android:id="@+id/germany"
+        android:layout_width="185dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_toEndOf="@+id/turkey"
+        android:layout_toRightOf="@+id/turkey"
+        app:srcCompat="@drawable/germany" />
+
+    <ImageView
+        android:id="@+id/france"
+        android:layout_width="180dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/turkey"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/france" />
+
+    <ImageView
+        android:id="@+id/england"
+        android:layout_width="185dp"
+        android:layout_height="130dp"
+        android:layout_alignTop="@+id/france"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/france"
+        app:srcCompat="@drawable/england" />
+
+    <ImageView
+        android:id="@+id/spain"
+        android:layout_width="185dp"
+        android:layout_below="@+id/france"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/spain" />
+
+    <ImageView
+        android:id="@+id/america"
+        android:layout_width="185dp"
+        android:layout_height="130dp"
+        android:layout_alignTop="@+id/spain"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/spain"
+        app:srcCompat="@drawable/america" />
+
+
+
+
+
+</RelativeLayout>

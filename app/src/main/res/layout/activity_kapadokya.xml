@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kapadokya"
+    android:background="@drawable/login">
+
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/kapadokya"
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/kapadokya" />
+
+        <ImageView
+            android:id="@+id/kapadokya2"
+            android:layout_width="wrap_content"
+            android:layout_height="280dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/kapadokya2" />
+
+        <ImageView
+            android:id="@+id/kapadokya3"
+            android:layout_width="wrap_content"
+            android:layout_height="280dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/kapadokya3" />
+
+    </ViewFlipper>
+
+    <TextView
+        android:id="@+id/tv_kapadokya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:text="KAPADOKYA"
+        android:textColor="#cfffff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/aciklama"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tv_kapadokya"
+        android:layout_marginTop="10dp"
+        android:text="Kapadokya bölgesi 60 milyon yıl önce; Erciyes, Hasan Dağı ve Güllü Dağı'ın püskürttüğü lav ve küllerin oluşturduğu yumuşak tabakaların milyonlarca yıl boyunca yağmur ve rüzgar tarafından aşındırılmasıyla ortaya çıkmıştır. Eğer Türkiyede iseniz uçan balonların muhteşem görselini görmek adına kesinlikle gitmenizi ve bu deneyimi yaşamanızı tavsiye ederim..."
+        android:textColor="#cc9962"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ileri"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        app:srcCompat="@drawable/oksag" />
+
+    <ImageView
+        android:id="@+id/geri"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="265dp"
+        android:layout_marginStart="0dp"
+        app:srcCompat="@drawable/oksol"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/resimaciklama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ileri"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Resimleri Değiştirmek için"
+        android:textColor="#ffb62f"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
